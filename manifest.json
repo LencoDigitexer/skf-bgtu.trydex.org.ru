@@ -1,0 +1,57 @@
+{
+"name": "Расписание пар",
+"short_name": "Расписание пар | СКФ БГТУ",
+"start_url": "https://skf-bgtu.trydex.org.ru",
+"display": "standalone",
+"description": "Расписание пар в твоём кармане для студентов СКФ БГТУ",
+"lang": "ru",
+"dir": "auto",
+"theme_color": "#212529",
+"background_color": "#212529",
+"orientation": "natural",
+"icons": [
+    { "src": "assets/icons/favicon.ico", "type": "image/x-icon", "sizes": "16x16 32x32" },
+    { "src": "assets/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "assets/icons/icon-512.png", "type": "image/png", "sizes": "512x512" },
+    { "src": "assets/icons/icon-192-maskable.png", "type": "image/png", "sizes": "192x192", "purpose": "maskable" },
+    { "src": "assets/icons/icon-512-maskable.png", "type": "image/png", "sizes": "512x512", "purpose": "maskable" }
+],
+"screenshots": [
+    {
+        "src": "https://skf-bgtu.trydex.org.ru/assets/screenshots/screen1.png",
+        "sizes": "1800x2340",
+        "type": "image/png",
+        "description": "Темная тема главной страницы"
+    },
+    {
+        "src": "https://skf-bgtu.trydex.org.ru/assets/screenshots/screen2.png",
+        "sizes": "1800x2340",
+        "type": "image/png",
+        "description": "Светлая тема главной страницы"
+    }
+],
+"related_applications": [
+    {
+        "platform":"android",
+        "url": "https://apps.rustore.ru/app/com.lencodigitexer.shedule_app"
+    }
+],
+"prefer_related_applications": false,
+"shortcuts": [
+    {
+        "name":"Главная",
+        "url":"https://skf-bgtu.trydex.org.ru/",
+        "description":"Главная"
+    },
+    {
+        "name":"Настройки",
+        "url":"https://skf-bgtu.trydex.org.ru/settings.php",
+        "description":"Настройки"
+    },
+    {
+        "name":"Поделиться приложением",
+        "url":"https://skf-bgtu.trydex.org.ru/share/",
+        "description":"Поделиться приложением"
+    }
+]
+}
